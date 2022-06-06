@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="name">
+<button id="name1">hien thi ten</button>
+<p id="demo">Nguyễn Anh Dũng</p>
+<script>
+    function nhapTen(){
+        let name = document.getElementById("name").value;
+        document.getElementById("demo").innerHTML = "Ho va ten la: " + name;
+    }
+
+    document.getElementById("name1").addEventListener("click", nhapTen);
+</script>
+<!--<script src="BBB.js"></script>-->
+</body>
+</html>
